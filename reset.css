@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, p, button, select, input, textarea, th, td {margin:0; padding:0;}
+
+body {height:100%; font-family:'NBG', sans-serif; font-size:14px; color:#444;}
+
+img {border:none; vertical-align:top;}
+
+ul li , ol li {list-style:none;}
+
+fieldset {border:none;}
+
+table {border-collapse:collapse;}
+caption {overflow:hidden; width:0; height:0; font-size:0; line-height:0;}
+
+img, fieldset, button { border:0; padding:0px;}
+button {background:none;}
+input{-webkit-appearance:none; -webkit-border-radius:0;}
+input, select {vertical-align:middle;}
+legend {width:0; height:0; font-size:0; position:absolute; overflow:hidden;}
+
+
+
+body{max-width:1120px; max-height:910px; background-color: #b5a78a;}
+a{color:#97484b; border-bottom: #97484b dashed 1px;}
+#header{background-color:#675c48; width:1100px; height:110px; margin:10px;}
+#content{display:flex; margin:10px;}
+#content > .left{background-image:url(images/background.gif); width:470px; height:610px; margin-right:10px;}
+#content > .left > b{color:#97484b; margin:10px;}
+#content > .left > p{margin:10px; font-size:13.5px;}
+#content > .right{background-image:url(images/background.gif); width:620px; height:420px; text-align:center;}
+#content > .right p{margin:17px; color:#97484b;}
+#content > .right p:last-child{font-size:12px; line-height: 15px; color:black;}
+#footer{background-color:#68574d; width:1100px;height:130px; margin:10px;}
+#footer > p{color:black; text-align:center; line-height: 30px;}
+#footer > p:first-child{padding-top:30px;}
+
